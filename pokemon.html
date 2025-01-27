@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <title>Pokemon</title>
+  <script type = "text/javascript" src = "./pokemon.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "pokemon.css" />
+</head>
+
+<div class="game">
+  <div class="opponent">
+    <div class="stats">
+      <div class="top">
+        <div class="pokeballs">
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+        </div>
+        <div id = "apHP" class="hp-count">100</div>
+      </div>
+      <span class="name">
+        Charizard
+      </span>
+      <span class="level">
+        86
+      </span>
+    </div>
+    <img class="pokemon" src="http://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif" alt ="A sprite of charizard" />
+  </div>
+  <div class="player">
+    <div class="stats">
+      <div class="top">
+        <div class="pokeballs">
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+        </div>
+        <div id = "myHP" class="hp-count">100</div>
+      </div>
+      <span class="name">
+        Blastoise
+      </span>
+      <span class="level">
+        86
+      </span>
+    </div>
+    <img class="pokemon" src="https://img.pokemondb.net/sprites/black-white/anim/back-normal/blastoise.gif" alt="A gif from blastoises back sprite" />
+  </div>
+</div>
+<div class="box">
+  <div id = "message" class="message">
+    ¿Que deberia hacer Blastoise?
+  </div>
+  <div class="actions">
+    <button onclick = "waterCannon()">Cañon de agua</button>
+    <button onclick = "waterPulse()">Pulso de agua</button>
+    <button onclick = "surf()">Surf</button>
+    <button onclick = "tackle()">Placaje</button>
+  </div>
+  <div class = "continue">
+    <button onclick = "compPokemon()">Continuar</button>
+  </div>
+</div>
